@@ -1,11 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('greeting', function () {
-    return 'Hi, this is your awesome package! lamaw';
-});
+// Route::get('greeting', function () {
+//     return 'Hi, this is your awesome package! lamaw';
+// });
 
-Route::get('lamaw/test', 'EdgeWizz\lamaw\Controllers\lamawController@test')->name('test');
+// Route::get('lamaw/test', 'EdgeWizz\lamaw\Controllers\lamawController@test')->name('test');
 
 Route::post('fmt/Lamaw/store', 'EdgeWizz\Lamaw\Controllers\LamawController@store')->name('fmt.lamaw.store');
 
