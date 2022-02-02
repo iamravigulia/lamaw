@@ -45,8 +45,12 @@
                         </div>
                     </div>{{-- //w-1/3 --}}
                     <div>
-                        <label class="fmt_label" for="">Question audio</label>
+                        <label class="fmt_label" for="">Question English audio</label>
                         <input class="fmt_input" type="file" accept="audio/*" name="question_media" placeholder="Question">
+                    </div>
+                    <div>
+                        <label class="fmt_label" for="">Question Spanish audio</label>
+                        <input class="fmt_input" type="file" accept="audio/*" name="question_media_es" placeholder="Question">
                     </div>
                     <div class="my-2">
                         <label class="bloc" for="">Difficulty Level</label>
