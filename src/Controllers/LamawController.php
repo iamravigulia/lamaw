@@ -253,11 +253,11 @@ class LamawController extends Controller
                         if($request->format_title){
                             $fill_Q->format_title = $request->format_title;
                         }
-                        if (!empty($insertData['question_media']) && $insertData['question_media'] != '') {
+                        if (!empty($insertData['question_media']) && $insertData['question_media'] != '-') {
                             $media_id = $this->imagecsv($insertData['question_media'], $audio);
                             $fill_Q->media_id = $media_id;
                         }
-                        if (!empty($insertData['media_es']) && $insertData['media_es'] != '') {
+                        if (!empty($insertData['media_es']) && $insertData['media_es'] != '-') {
                             $media_id_es = $this->imagecsv($insertData['media_es'], $audio_es);
                             $fill_Q->media_id_es = $media_id_es;
                         }
